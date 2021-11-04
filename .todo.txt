@@ -1,0 +1,30 @@
+TODO WEB1 BEADANDO
+
+//-->megvan
+
+GLOBAL
+    //prices vids pcituren nincs meg mindenhol a link a szovegen csak a kepen (mainpagen jo)
+    //linkek priceshoz nincsenek meg mindenhol
+
+MAIN PAGE
+    //blurnel szovegeken nincs link
+    //jdm cars felirat piict feljebb van
+
+NISSAN SITE
+    //menubar el van rendezve balra kell igazitani
+    //pont van menupontok elott
+
+CONTACT US SITE
+    //template leszedése átformálása
+    topbar el vna csuszva valamiert
+
+VIDS SITE
+    //szokasos menu berakása
+    //topbar el vna csuszva valamiert
+    videok
+    kepek
+    labelek
+
+PRICES SITE
+    //szokasos menu berakása
+    topbar el vna csuszva valamiert

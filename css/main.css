@@ -1,0 +1,299 @@
+
+*{
+    text-decoration: none;
+}
+
+.main-container{
+    max-width:1400px;
+    margin:0 auto;
+    padding-top: 10px;
+}
+
+/*toppricesvids*/
+
+.top-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+
+.main-top-text-static{
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 0 10px;
+}
+
+.main-text-top{
+    position:absolute;
+    z-index: 2;
+    color: #143a7b;
+    opacity:0;
+    transition: all 0.3s;
+    font-weight: 900;
+    font-size: 2rem;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: white;
+    cursor: pointer;
+}
+
+.mainimg:hover .main-text-top{
+    opacity:1;
+}
+
+.text-middle{
+    display: flex;
+    align-items: center;
+}
+
+/*hero*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+/*hoveronhomepage*/
+
+.mainimg:hover img{
+    filter: blur(1.5px);
+}
+
+.mainimg:hover .main-text{
+    opacity:1;
+}
+
+.mainimg{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainimg img{
+    transition: all 0.3s;
+}
+
+.main-text{
+    position:absolute;
+    z-index: 2;
+    color: #143a7b;
+    opacity:0;
+    transition: all 0.3s;
+    font-weight: 900;
+    font-size: 4rem;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: white;
+    cursor: pointer;
+}
+
+
+/*maincontactus*/
+
+.contactus{
+    background-color: #143a7b;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    width: 160px;
+}
+
+.contactus:hover, .contactus:active{
+    background-color: #337af5;
+    text-decoration: none;
+    color: white;
+}
+
+/*navbarsidesite*/
+
+.navigation{
+    display: flex;
+}
+
+.menu-bar{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #337af5;
+    padding: 14px 25px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;   
+}
+
+.navigation li{
+    list-style-type: none;
+    
+}
+
+.menu-bar-chosen{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+    padding: 14px 25px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu-bar:hover, .menu-bar:active{
+    background-color: #143a7b;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.menu-bar-chosen:hover{
+    text-decoration: none;
+}
+
+/*hero*/
+
+.sidepage-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.sidepage-header{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 10px;
+    padding-top:50px;
+}
+
+.sidepage-header-right{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 10px;
+    padding-top:50px;
+    text-align: right;
+}
+
+/*cartexts*/
+
+.car-text{
+    color: white;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+.car-text-right{
+    color: white;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+/*contactus*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #143a7b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 32px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #337af5;
+  }
+
+  .contactus-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border-radius: 5px;
+  }
+
+  .contactus-label{
+      color: white;
+  }
+
+  .contactus-mid{
+      color: white;
+      font-weight: 800;
+      font-size: 3rem;
+      align-self: center;
+  }
+
+  .contactus-mid-container{
+    display: grid;
+    text-align: end;
+  }
+
+  .homebutton{
+    background-color: #143a7b;
+    color: white;
+    padding: 20px 70px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 2rem;
+    border-radius: 6px;
+  }
+
+  .homebutton:hover, .homebutton:active{
+    background-color: #337af5;
+    text-decoration: none;
+    color: white;
+}
+
+.homebutton-container{
+    justify-items: center;
+}
+
+/*prices*/
+    .diagram{
+        transition: transform .3s;
+    }
+
+    .diagram:hover{
+        transform: scale(1.11);
+    }
+
+/*upbutton*/
+
+#topButton {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    color: #143a7b; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    font-weight: 700;
+  }
+  
+  #topButton:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+
+
