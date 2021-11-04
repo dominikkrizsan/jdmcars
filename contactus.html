@@ -27,29 +27,34 @@
 				<a class="homebutton" href="index.html"><span>Home</span></a>
 			</div>
 		</div>
-
-		<div class="contactus-mid-container">
-			<label class="contactus-mid">CONTACT US</label>
-		</div>
-		<div class="contactus-container">
-			<div>
-				<label class="contactus-label">First Name</label>
-				<input type="text" name="firstname" placeholder="Write your first name here...">
-				<label class="contactus-label">Last Name</label>
-				<input type="text" name="lastname" placeholder="Write your last name here...">
-				<label class="contactus-label">Email</label>
-				<input type="text" name="email" placeholder="Write your email here...">
-				<label class="contactus-label">Phone</label>
-				<input type="text" name="phone" placeholder="Write your phone number here...">
+		<form action="/action_page.php">
+			<div class="contactus-mid-container">
+				<label class="contactus-mid">CONTACT US</label>
 			</div>
-			<div>
-				<label class="contactus-label">Subject</label>
-				<textarea name="subject" placeholder="Write something.." style="height:258px"></textarea>
-				<div class="contactus-submit">
-					<input type="submit" value="Submit">
+			<div class="contactus-container">
+				<div>
+					<label class="contactus-label">First Name</label>
+					<input type="text" name="firstname" placeholder="Write your first name here...">
+					<label class="contactus-label">Last Name</label>
+					<input type="text" name="lastname" placeholder="Write your last name here...">
+					<label class="contactus-label">Email</label>
+					<input type="text" name="email" placeholder="Write your email here...">
+					<label class="contactus-label">Phone</label>
+					<input type="text" name="phone" placeholder="Write your phone number here...">
+				</div>
+				<div>
+					<label class="contactus-label">Subject</label>
+					<textarea name="subject" placeholder="Write something.." style="height:258px"></textarea>
+					<div class="contactus-buttons">
+						<div>
+							
+							<input class="reset-button" type="reset" value="Reset">
+							<input type="submit" value="Submit">
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+		</form>
 	</div>
 
 </body>

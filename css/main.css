@@ -242,6 +242,27 @@ input[type=text], select, textarea {
     text-align: end;
   }
 
+  .contactus-buttons{
+      text-align: center;
+  }
+
+  .reset-button{
+    background-color: #143a7b;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    padding: 11px 20px;
+    margin-right: 140px;
+  }
+
+  .reset-button:hover{
+    background-color: #337af5;
+    text-decoration: none;
+    color: white;
+  }
+
   .homebutton{
     background-color: #143a7b;
     color: white;
