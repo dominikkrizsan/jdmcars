@@ -2,6 +2,8 @@ TODO WEB1 BEADANDO
 
 //-->megvan
 
+    RESPONSIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 GLOBAL
     //prices vids pcituren nincs meg mindenhol a link a szovegen csak a kepen (mainpagen jo)
     //linkek priceshoz nincsenek meg mindenhol
@@ -21,10 +23,15 @@ CONTACT US SITE
 VIDS SITE
     //szokasos menu berakása
     //topbar el vna csuszva valamiert
-    videok
-    kepek
-    labelek
+    //videok -> ytnel megosztasnal beagyazas onnan kell iframe linket masolni
+    //kepek
+    //labelek
 
 PRICES SITE
     //szokasos menu berakása
-    topbar el vna csuszva valamiert
+    //topbar el vna csuszva valamiert
+    table tag kell oda, ide lehet besuriteni a maradek tageket
+
+MAIN PAGE
+    //kep melle kattintva is van link
+    //390px nel nincs kozepen a jdmcars resz

@@ -4,7 +4,7 @@
 }
 
 .main-container{
-    max-width:1400px;
+    max-width:1200px;
     margin:0 auto;
     padding-top: 10px;
 }
@@ -16,6 +16,7 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     padding-bottom: 20px;
+    max-width:1400px;
 }
 
 .main-top-text-static{
@@ -23,6 +24,7 @@
     font-weight: 900;
     font-size: 3rem;
     padding: 0 10px;
+    margin-top: 10px;
 }
 
 .main-text-top{
@@ -44,7 +46,7 @@
 
 .text-middle{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 /*hero*/
@@ -101,6 +103,10 @@
     font-weight: 600;
     border-radius: 6px;
     width: 160px;
+}
+
+.home-contactus{
+    padding-top: 10px;
 }
 
 .contactus:hover, .contactus:active{
@@ -175,17 +181,21 @@
     text-align: right;
 }
 
+.sidepage-image{
+    width: 590px;
+}
+
 /*cartexts*/
 
 .car-text{
     color: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
     justify-content: center;
 }
 
 .car-text-right{
     color: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: right;
 }
 
@@ -284,14 +294,15 @@ input[type=text], select, textarea {
     justify-items: center;
 }
 
-/*prices*/
-    .diagram{
-        transition: transform .3s;
-    }
+.contactus-email{
+    text-decoration: none;
+}
 
-    .diagram:hover{
-        transform: scale(1.11);
-    }
+.contactus-footer{
+    margin-top:300px;
+}
+
+/*prices*/
 
 /*upbutton*/
 
@@ -316,5 +327,111 @@ input[type=text], select, textarea {
     background-color: #555; /* Add a dark-grey background on hover */
   }
 
+  /*vidssite*/
+
+  .vids-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      margin-top: 70px;
+  }
+
+  .vids-text{
+      color: white;
+      font-weight: 700;
+      font-size: 2.2rem;
+  }
+
+  /*prices*/
+
+  .prices-table{
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .prices-table-header{
+    border: 2px solid #dddddd;
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+    font-size: 1.8rem;
+    width: 30%;
+  }
+
+  .prices-table-content{
+    border: 2px solid #dddddd;
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+    font-size: 1.8rem;
+  }
+
+  .prices-table-row{
+      background-color: #143a7b;
+  }
+
+  .contactus-directcontact{
+      color: white;
+  }
 
 
+  /*tablet*/
+  @media screen and (max-width: 992px){
+
+      .grid-container{
+        grid-template-columns: 1fr;
+      }
+
+      .mainimg{
+          width: 100%;
+      }
+  }
+
+
+  @media screen and (max-width: 800px){
+        .top-container{
+            grid-template-columns: 1fr;
+        }
+
+        .home-prices-vids-pic{
+            padding-top: 20px;
+        }
+        
+  }
+
+
+  /*phone*/
+  @media screen and (max-width: 600px){
+    .top-container{
+        grid-template-columns: 1fr;
+    }
+
+    .home-prices-vids-pic{
+        padding-top: 20px;
+    }
+
+}
+
+  @media screen and (max-width: 390px){
+        .top-container{
+            width: 100%;
+            justify-items: center;
+        }
+
+        .top-container-pic{
+            width: 100px;
+        }
+
+        .top-container-pic-jdm{
+            width: 50px;
+        }
+
+        .main-top-text-static{
+            font-size: 1.5rem;
+        }
+
+        .main-top-text-static{
+            display: grid;
+            justify-content: center;
+        }
+  }
