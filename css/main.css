@@ -16,7 +16,7 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     padding-bottom: 20px;
-    max-width:1400px;
+    max-width:1200px;
 }
 
 .main-top-text-static{
@@ -374,6 +374,8 @@ input[type=text], select, textarea {
       color: white;
   }
 
+  
+/*-------------------------------------------------------------------*/
 
   /*tablet*/
   @media screen and (max-width: 992px){
@@ -385,17 +387,107 @@ input[type=text], select, textarea {
       .mainimg{
           width: 100%;
       }
+
+      .top-container{
+        justify-self: center;
+    }
+
+    .vids-container{
+        grid-template-columns: 1fr;
+    }
+
+    .video-iframe{
+        width: 100%;
+    }
+
   }
 
 
   @media screen and (max-width: 800px){
         .top-container{
             grid-template-columns: 1fr;
+            gap: 10px;
         }
 
         .home-prices-vids-pic{
             padding-top: 20px;
         }
+
+        .contactus-container{
+            grid-template-columns: 1fr;
+            padding: 10px;
+        }
+
+        .contactus-mid-container{
+            display: grid;
+            text-align: center;
+        }
+
+        .sidepage-container{
+            grid-template-columns: 1fr;
+            width: 100%;
+        }
+
+        .sidepage-image{
+            width: 100%;
+        }
+
+        .sidepage-header{
+            width: 100%;
+        }
+
+
+        .navigation{
+            align-items: center;
+        }
+
+        .prices-table-header{
+            text-align: center;
+            color: white;
+            padding-left: 10px;
+            font-size: 1rem;
+          }
+        
+          .prices-table-content{
+            text-align: center;
+            color: white;
+            font-size: 1rem;
+          }
+
+          .homebutton{
+            padding: 10px 50px;
+            font-weight: 700;
+            font-size: 1.5rem;
+            border-radius: 6px;
+          }
+
+          .menu-bar{
+            font-weight: 800;
+            font-size: 1rem;
+            padding: 5px 5px;
+
+        }
+        
+        .menu-bar-chosen{
+            font-weight: 800;
+            font-size: 1rem;
+            padding: 5px 5px;
+        }
+
+        .navbar-container{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .vids-container{
+            grid-template-columns: 1fr;
+        }
+
+        .video-iframe{
+            width: 100%;
+        }
+
         
   }
 
@@ -409,6 +501,27 @@ input[type=text], select, textarea {
     .home-prices-vids-pic{
         padding-top: 20px;
     }
+
+    .top-picture{
+        width: 100px;
+    }
+
+    .top-picture-jdm{
+        width: 80px;
+    }
+
+    .main-top-text-static{
+        font-size: 1.5rem;
+    }
+
+    .sidepage-header{
+        font-size: 1.7rem;
+    }
+
+    .sidepage-header-right{
+        font-size: 1.7rem;
+    }
+
 
 }
 
@@ -434,4 +547,9 @@ input[type=text], select, textarea {
             display: grid;
             justify-content: center;
         }
+
+        .contactus-mid{
+            font-size: 1.8rem;
+        }
+
   }

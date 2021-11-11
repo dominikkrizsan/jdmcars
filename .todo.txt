@@ -35,3 +35,7 @@ PRICES SITE
 MAIN PAGE
     //kep melle kattintva is van link
     //390px nel nincs kozepen a jdmcars resz
+    
+SIDE PAGE
+    800px nel nem mukodik a justifycontent
+    800px nel nem mukodik a grid-template-columns 1fr
