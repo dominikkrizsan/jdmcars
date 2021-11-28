@@ -20,7 +20,7 @@
 		<div class="top-container">
 			<div class="text-middle">
 				<span class="main-top-text-static">JDM</span>
-				<img class="rounded" src="./source/web1_kepek/jdm.png" alt="JDMPIC">
+				<img class="rounded" src="./source/web1_kepek/jdm.png" alt="JDMPIC-LOGO">
 				<span class="main-top-text-static">CARS</span>
 			</div>
 			<div class="homebutton-container mt-4">
@@ -35,20 +35,40 @@
 			<div class="contactus-container">
 				<div>
 					<label class="contactus-label">First Name</label>
-					<input type="text" name="firstname" placeholder="Write your first name here...">
+					<input type="text" name="firstname" placeholder="Write your first name here..." maxlength="15">
 					<label class="contactus-label">Last Name</label>
-					<input type="text" name="lastname" placeholder="Write your last name here...">
+					<input type="text" name="lastname" placeholder="Write your last name here..." maxlength="15">
 					<label class="contactus-label">Email</label>
-					<input type="text" name="email" placeholder="Write your email here...">
+					<input type="text" name="email" placeholder="Write your email here..." maxlength="20">
 					<label class="contactus-label">Phone</label>
-					<input type="text" name="phone" placeholder="Write your phone number here...">
+					<input type="text" name="phone" placeholder="Write your phone number here..." maxlength="12">
+					<div class="privacy-policy-container">
+						<input required type="checkbox" name="checkbox"><span class="privacy-policy">&nbsp;I accept the <a
+							href="https://www.w3docs.com/privacy-policy" class="privacy-policy">Privacy Policy for
+							W3Docs.</a></span>
+					</div>
+					<div class="pl-3 radio-container">
+						<div>
+							<label class="contactus-label">Your Gender:</label>
+						</div>
+						<div>
+							<div class="radio-container-sub">
+								<input type="radio" name="Male" id="male" value="male">
+								<label for="male" class="contactus-label">Male</label>
+							</div>
+							<div class="radio-container-sub">
+								<input type="radio" name="Female" id="Female" value="female">
+								<label for="female" class="contactus-label">Female</label>
+							</div>
+						</div>
+
+					</div>
 				</div>
 				<div>
 					<label class="contactus-label">Subject</label>
-					<textarea name="subject" placeholder="Write something.." style="height:258px"></textarea>
+					<textarea name="subject" placeholder="Write something.." style="height:258px" maxlength="100"></textarea>
 					<div class="contactus-buttons">
 						<div>
-							
 							<input class="reset-button" type="reset" value="Reset">
 							<input type="submit" value="Submit">
 						</div>

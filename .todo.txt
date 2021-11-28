@@ -39,3 +39,9 @@ MAIN PAGE
 SIDE PAGE
     800px nel nem mukodik a justifycontent
     800px nel nem mukodik a grid-template-columns 1fr
+
+
+
+
+    https://www.youtube.com/watch?v=MrBvpzjpMvI
+    8as pont iranyelvekbe css

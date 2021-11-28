@@ -25,6 +25,7 @@
     font-size: 3rem;
     padding: 0 10px;
     margin-top: 10px;
+    font-family: sans-serif;
 }
 
 .main-text-top{
@@ -38,6 +39,7 @@
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: white;
     cursor: pointer;
+    font-family: sans-serif;
 }
 
 .mainimg:hover .main-text-top{
@@ -89,6 +91,7 @@
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: white;
     cursor: pointer;
+    font-family: sans-serif;
 }
 
 
@@ -103,6 +106,7 @@
     font-weight: 600;
     border-radius: 6px;
     width: 160px;
+    font-family: sans-serif;
 }
 
 .home-contactus{
@@ -128,7 +132,8 @@
     padding: 14px 25px;
     text-align: left;
     text-decoration: none;
-    display: inline-block;   
+    display: inline-block;
+    font-family: sans-serif;
 }
 
 .navigation li{
@@ -144,6 +149,7 @@
     text-align: left;
     text-decoration: none;
     display: inline-block;
+    font-family: sans-serif;
 }
 
 .menu-bar:hover, .menu-bar:active{
@@ -151,9 +157,11 @@
     color: white;
     text-decoration: none;
     border-radius: 10px;
+    font-family: sans-serif;
 }
 .menu-bar-chosen:hover{
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 /*hero*/
@@ -170,6 +178,7 @@
     font-size: 3rem;
     padding-bottom: 10px;
     padding-top:50px;
+    font-family: sans-serif;
 }
 
 .sidepage-header-right{
@@ -179,6 +188,7 @@
     padding-bottom: 10px;
     padding-top:50px;
     text-align: right;
+    font-family: sans-serif;
 }
 
 .sidepage-image{
@@ -191,12 +201,14 @@
     color: white;
     font-size: 1.3em;
     justify-content: center;
+    font-family: sans-serif;
 }
 
 .car-text-right{
     color: white;
     font-size: 1.3em;
     text-align: right;
+    font-family: sans-serif;
 }
 
 /*contactus*/
@@ -231,13 +243,14 @@ input[type=text], select, textarea {
 
   .contactus-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 400px 1fr;
     grid-gap: 20px;
     border-radius: 5px;
   }
 
   .contactus-label{
       color: white;
+      font-family: sans-serif;
   }
 
   .contactus-mid{
@@ -245,6 +258,7 @@ input[type=text], select, textarea {
       font-weight: 800;
       font-size: 3rem;
       align-self: center;
+      font-family: sans-serif;
   }
 
   .contactus-mid-container{
@@ -265,12 +279,14 @@ input[type=text], select, textarea {
     border-radius: 3px;
     padding: 11px 20px;
     margin-right: 140px;
+    font-family: sans-serif;
   }
 
   .reset-button:hover{
     background-color: #337af5;
     text-decoration: none;
     color: white;
+    font-family: sans-serif;
   }
 
   .homebutton{
@@ -282,6 +298,7 @@ input[type=text], select, textarea {
     font-weight: 800;
     font-size: 2rem;
     border-radius: 6px;
+    font-family: sans-serif;
   }
 
   .homebutton:hover, .homebutton:active{
@@ -296,6 +313,7 @@ input[type=text], select, textarea {
 
 .contactus-email{
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 .contactus-footer{
@@ -322,7 +340,7 @@ input[type=text], select, textarea {
     font-size: 18px; /* Increase font size */
     font-weight: 700;
   }
-  
+
   #topButton:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
@@ -340,22 +358,23 @@ input[type=text], select, textarea {
       color: white;
       font-weight: 700;
       font-size: 2.2rem;
+      font-family: sans-serif;
   }
 
   /*prices*/
 
   .prices-table{
     width: 100%;
-    margin-top: 50px;
-  }
+    }
 
   .prices-table-header{
     border: 2px solid #dddddd;
     text-align: left;
     color: white;
     padding-left: 10px;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     width: 30%;
+    font-family: sans-serif;
   }
 
   .prices-table-content{
@@ -363,16 +382,119 @@ input[type=text], select, textarea {
     text-align: left;
     color: white;
     padding-left: 10px;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+    font-family: sans-serif;
   }
 
   .prices-table-row{
       background-color: #143a7b;
   }
 
+  .prices-plus-header{
+      font-weight: 600;
+      color: white;
+      text-align: center;
+      }
+
+  .prices-text{
+      color: white;
+      font-size: 1.3rem;
+      display: flex;
+      justify-content: center;
+  }
+
   .contactus-directcontact{
       color: white;
+      font-family: sans-serif;
   }
+
+  .radio-container{
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      font-size: 1.1rem;
+      font-family: sans-serif;
+  }
+
+  .radio-container-sub{
+      display: flex;
+      gap: 20px;
+      align-items: center;
+  }
+
+  .privacy-policy{
+      text-decoration: none;
+      color: white;
+      font-size: 1.1rem;
+      font-family: sans-serif;
+  }
+
+  .privacy-policy-container{
+      margin-left: 20px;
+      margin-bottom: 20px;
+  }
+
+  .prices-table-caption{
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: 700;
+      font-family: sans-serif;
+  }
+
+
+  .prices-table-summary{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.prices-title{
+    font-family: sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 2.7rem;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+
+.link-tag{
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+.link-tag:visited{
+    color: grey;
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+.link-tag:hover{
+    color:wheat;
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+
 
   
 /*-------------------------------------------------------------------*/
